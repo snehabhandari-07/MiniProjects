@@ -57,3 +57,5 @@ Create a `.env` file in the root:
     3. **Install dependencies**(npm install)
     4. **Create .env file and add your Mongo URI and JWT secret.**
     5. **Run the Server**
+
+## By Sneha
