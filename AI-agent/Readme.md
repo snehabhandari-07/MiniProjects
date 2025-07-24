@@ -19,36 +19,27 @@ This is a basic CLI-based AI agent built using Node.js and OpenAI's API. The pro
 
 ### `getWeatherData(city: string): string`
 This is a mock tool that returns hardcoded weather data for select Indian cities:
-```js
-{
-  pune: "10°C",
-  delhi: "20°C",
-  banglore: "30°C",
-  chennai: "8°C",
-  hyderabad: "14°C"
-}
+
+  {
+    pune: "10°C",
+    delhi: "20°C",
+    banglore: "30°C",
+    chennai: "8°C",
+    hyderabad: "14°C"
+  }
 
 ## How the Agent Thinks (LLM Reasoning Loop)
-    The LLM is instructed via a system prompt to follow a specific loop:
-
-    START – Receive user input
-
-    PLAN – Decide the next step
-
-    ACTION – Call a tool (e.g., getWeatherData)
-
-    OBSERVATION – Use tool’s result
-
-    OUTPUT – Give final answer based on all steps
+   - The LLM is instructed via a system prompt to follow a specific loop:
+   - START – Receive user input
+   - PLAN – Decide the next step
+   - ACTION – Call a tool (e.g., getWeatherData)
+   - OBSERVATION – Use tool’s result
+   - OUTPUT – Give final answer based on all steps
 
 ## What I Learned
-    “An LLM with a tool is an AI agent.”
-    This project helped me understand how to:
-
-    Structure a system prompt for reasoning
-
-    Parse and respond to LLM outputs
-
-    Use a loop to simulate multi-step planning
-
-    Dynamically call functions based on LLM responses
+  “An LLM with a tool is an AI agent.”
+  -This project helped me understand how to:
+    -Structure a system prompt for reasoning
+    -Parse and respond to LLM outputs
+    -Use a loop to simulate multi-step planning
+    -Dynamically call functions based on LLM responses
