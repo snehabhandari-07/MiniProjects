@@ -38,8 +38,8 @@ This is a mock tool that returns hardcoded weather data for select Indian cities
 
 ## What I Learned
   “An LLM with a tool is an AI agent.”
-  -This project helped me understand how to:
-    -Structure a system prompt for reasoning
-    -Parse and respond to LLM outputs
-    -Use a loop to simulate multi-step planning
-    -Dynamically call functions based on LLM responses
+  - This project helped me understand how to:
+    - Structure a system prompt for reasoning
+    - Parse and respond to LLM outputs
+    - Use a loop to simulate multi-step planning
+    - Dynamically call functions based on LLM responses
