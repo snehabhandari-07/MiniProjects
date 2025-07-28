@@ -13,22 +13,6 @@ A simple RESTful API to manage contacts with user authentication.
 - **API Testing:** Thunder Client (VS Code extension)
 
 ---
-
-##  Project Structure
-
-    MyContacts-Backend/
-    ├── config/
-    │ └── dbConnection.js
-    ├── controllers/
-    ├── middleware/
-    │ └── errorHandler.js
-    ├── models/
-    ├── routes/
-    │ ├── contactRoutes.js
-    │ └── userRoutes.js
-    ├── .env
-    ├── server.js
-    └── package.json
   
 ##  Features
 
