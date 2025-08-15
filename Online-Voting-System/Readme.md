@@ -42,14 +42,14 @@ Built with **Node.js**, **Express.js**, and **MongoDB**.
 ### Candidates
 - **GET** `/candidates` — Get list of candidates  
 - **POST** `/candidates` — Add a candidate *(Admin only)*  
-- **PUT** `/candidates/:id` — Update a candidate *(Admin only)*  
-- **DELETE** `/candidates/:id` — Delete a candidate *(Admin only)*  
+- **PUT** `/candidates/:candidateId` — Update a candidate *(Admin only)*  
+- **DELETE** `/candidates/:candidateId` — Delete a candidate *(Admin only)*  
 
 ---
 
 ### Voting
 - **GET** `/candidates/vote/count` — Get vote count for all candidates  
-- **POST** `/candidates/vote/:id` — Vote for a candidate *(User only)*  
+- **POST** `/candidates/vote/:candidateId` — Vote for a candidate *(User only)*  
 
 ---
 
