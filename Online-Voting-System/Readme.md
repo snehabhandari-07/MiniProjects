@@ -33,24 +33,29 @@ Built with **Node.js**, **Express.js**, and **MongoDB**.
 
 ## API Endpoints
 
-- Authentication
-    Method	    Endpoint    	Description
-    POST	    /signup	        Sign up a new user
-    POST	    /login	        Login a user
-- Candidates
-    Method	    Endpoint	        Description
-    GET	        /candidates	        Get list of candidates
-    POST	    /candidates	        Add a candidate (Admin only)
-    PUT	        /candidates/:id	    Update a candidate (Admin only)
-    DELETE	    /candidates/:id	    Delete a candidate (Admin only)
-- Voting
-    Method	    Endpoint	            Description
-    GET	        /candidates/vote/count	Get vote count for all candidates
-    POST	    /candidates/vote/:id	Vote for a candidate (User only)
-- User Profile
-    Method	    Endpoint	                Description
-    GET	        /users/profile	            Get user profile
-    PUT	        /users/profile/password	    Change password
+### Authentication
+- **POST** `/signup` — Sign up a new user  
+- **POST** `/login` — Login a user  
+
+---
+
+### Candidates
+- **GET** `/candidates` — Get list of candidates  
+- **POST** `/candidates` — Add a candidate *(Admin only)*  
+- **PUT** `/candidates/:id` — Update a candidate *(Admin only)*  
+- **DELETE** `/candidates/:id` — Delete a candidate *(Admin only)*  
+
+---
+
+### Voting
+- **GET** `/candidates/vote/count` — Get vote count for all candidates  
+- **POST** `/candidates/vote/:id` — Vote for a candidate *(User only)*  
+
+---
+
+### User Profile
+- **GET** `/users/profile` — Get user profile  
+- **PUT** `/users/profile/password` — Change password 
 
 ## Security Features
 
