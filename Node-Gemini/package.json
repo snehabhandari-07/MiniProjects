@@ -1,0 +1,18 @@
+{
+  "name": "node-gemini",
+  "version": "1.0.0",
+  "description": "Gemini with Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sneha Bhandari",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/genai": "^1.16.0",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0"
+  }
+}
