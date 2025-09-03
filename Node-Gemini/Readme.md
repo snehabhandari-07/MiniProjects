@@ -7,11 +7,11 @@ You can send prompts to Gemini and get AI-generated content in response.
 
 ## API Endpoints
   
-   ### 1. Home
+### 1. Home
 - **Endpoint:** `GET /`
 - **Response:** Sneha | Gemini
 
-   ### 2. Generate Content
+### 2. Generate Content
 - **Endpoint:** `POST /api/content`  
 - **Request Body (JSON):**
 ```json
