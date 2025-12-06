@@ -41,7 +41,7 @@ Most projects use `.env` files for configuration. Create a `.env` file in each p
 - **Backend**: Node.js, Express.js
 - **Frontend**: React, CSS, HTML
 - **Database**: MongoDB
-- **APIs**: LangChain, Google Gemini, Auth0
+- **APIs**: LangChain, Google Gemini
 - **Tools**: Git, NPM
 
 ---
