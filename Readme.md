@@ -21,7 +21,6 @@ A collection of MERN stack and web development mini-projects showcasing various 
 ### Frontend & CSS Projects
 
 - **[CSS-Mini/](CSS-Mini/)** - CSS mini-projects and exercises
-- **[Spotify-CSS-MiniClone/](Spotify-CSS-MiniClone/)** - Spotify UI clone built with CSS
 - **[Image-Upload/](Image-Upload/)** - Image upload functionality
 
 ## Getting Started
